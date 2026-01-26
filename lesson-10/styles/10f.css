@@ -1,0 +1,59 @@
+      p{
+        font-family: Roboto, Arial;
+        font-size: 14px;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .profile{
+        margin-bottom: 15px;
+      }
+
+      .profile-name{
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      .profile-description{
+        color: rgb(96,96,96);
+        margin-bottom: 3px;
+      }
+      .profile-status{
+        color: rgb(96,96,96);
+        font-size: 12px;
+      }
+      
+      .profile-picture{
+        display: inline-block;
+        width:65px;
+      }
+      .profile-icon{
+        width:50px;
+        object-position: cover;
+        border-radius: 100px;
+        vertical-align: middle;
+      }
+
+      .profile-info{
+        display: inline-block;
+        width:200px;
+        vertical-align: middle;
+      }
+
+      .follow-button{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .follow{
+        background-color: rgb(99, 99, 255);
+        border: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .follow:hover{
+        opacity: 0.8;
+      }
