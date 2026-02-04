@@ -1,0 +1,32 @@
+.container{
+  width: 325px;
+  border-width: 1px;
+  border-color: rgb(206, 206, 206);
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.25);
+
+}
+.flexbox{
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.name{
+  font-family: arial;
+  font-size: 16px;
+  border-radius: 100px;
+}
+.amt{
+  font-family: arial;
+  font-weight: bold;
+  background-color: rgb(88, 88, 250);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  border-radius: 15px;
+}
