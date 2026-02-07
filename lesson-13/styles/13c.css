@@ -1,0 +1,50 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.time,
+.all-inboxes{
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: gray;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-pic{
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+.name-time{
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  font-weight: bold;
+  font-size: 16px;
+}
+.head-text{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.sub-text{
+  color: gray;
+  font-size: 14px;
+}
