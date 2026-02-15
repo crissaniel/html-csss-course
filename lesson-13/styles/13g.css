@@ -1,0 +1,64 @@
+.row{
+        display: flex;
+        flex-direction: row;
+        width: 420px;
+      }
+      .profile-icon{
+        width: 50px;
+      }
+      .profile-pic{
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+
+      .post-details{
+        width: 300px;
+      }
+      p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+      }
+      .post-author-tag{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+      }
+      .author{
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      .tag-domain{
+        color: gray;
+      }
+    
+      .row-2{
+        margin-top: 10px;
+        display: flex;
+        flex-direction:row;
+      }
+      .thumbnail{
+        background-color: rgb(215, 215, 215);
+        width: 170px;
+        border-radius: 12px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+      }
+      .video-info{
+        padding:5px;
+        border-radius: 1px;
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        margin-left: -10px;
+        background-color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 10px;
+      }
+      .video-title{
+        line-height: 22px;
+      }
