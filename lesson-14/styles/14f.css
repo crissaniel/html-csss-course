@@ -1,0 +1,61 @@
+body{
+  height: 3000px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-icons-column{
+  position: fixed;
+  width: 60px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(21, 21, 21);
+  padding-left: 10px;
+}
+.profile-pic{
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.details-column{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 70px;
+  width: 125px;
+  padding-left: 17px;
+  padding-right: 20px;
+  padding-top: 13px;
+  background-color: rgb(64, 64, 64);
+}
+.info-add{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.info-text{
+  color: white;
+  font-weight: bold;
+}
+.add-text{
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+.channel-text{
+  color: gray;
+  font-weight: 525;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
