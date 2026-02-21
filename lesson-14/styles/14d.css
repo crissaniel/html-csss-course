@@ -3,9 +3,47 @@ body{
 }
 .right-sidebar{
   position: fixed;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   bottom: 0;
+  width: 100px;
   background-color: green;
   color: white;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal{
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.head{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: arial;
+  margin-bottom: 13px;
+}
+
+.subhead{
+  font-family: arial;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+button{
+  cursor: pointer;
 }
