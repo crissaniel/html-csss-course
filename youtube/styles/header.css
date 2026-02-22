@@ -7,11 +7,11 @@
   top: 0px;
   left: 0px;
   right: 0px;
-
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(222, 222, 222);
+  z-index: 100;
 }
 
 .left-section{
