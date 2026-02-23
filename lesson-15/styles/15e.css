@@ -1,0 +1,24 @@
+body{
+  height: 3000px;
+}
+.tshirt-container{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 150px;
+
+}
+.tshirt-pic{
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+.sale-tag{
+  font-family: arial;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 3px;
+}
