@@ -3,10 +3,7 @@ body{
 }
 .tshirt-container{
   position: relative;
-  top: 5px;
-  left: 5px;
-  width: 150px;
-
+  display: inline-block;
 }
 .tshirt-pic{
   height: 150px;
