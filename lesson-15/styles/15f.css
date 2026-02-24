@@ -1,0 +1,59 @@
+body{
+  height: 3000px;
+}
+.tshirt-container{
+  position: relative;
+  display: inline-block;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+.tshirt-pic{
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+.sale-tag{
+  font-family: arial;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 3px;
+}
+
+.add-to-cart-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.692);
+  height: 100px;
+}
+
+.add-to-cart-button{
+  background-color: white;
+  z-index: 100;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: opacity 0.15s, background-color 0.15s,
+              color 0.15s;
+}
+.add-to-cart-button:hover{
+  opacity: 0.7;
+}
+.add-to-cart-button:active{
+  background-color: black;
+  color: white;
+}
