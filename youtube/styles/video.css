@@ -20,9 +20,12 @@ a{
 .profile-picture{
   width: 36px;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .profile-picture-container {
+  width: 36px;
+  height: 36px;
   position: relative;
   display: inline-block;
 }
