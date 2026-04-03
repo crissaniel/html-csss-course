@@ -82,10 +82,7 @@ a{
   font-family: roboto, arial;
   font-size: 12px;
   font-weight: 500;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   position: absolute;
   bottom:8px;
   right: 5px;
