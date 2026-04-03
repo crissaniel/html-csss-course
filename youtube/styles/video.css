@@ -47,7 +47,6 @@ a{
 }
 
 .video-grid{ /*layouts the entire videos in the page 3x3 (flexible)*/
-  font-family: roboto, arial;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;

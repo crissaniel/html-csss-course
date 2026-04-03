@@ -73,7 +73,6 @@
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip{
-  font-family: roboto, arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -155,7 +154,6 @@
   position:relative;
 }
 .notifications-count{
-  font-family: roboto, arial;
   position:absolute;
   top: -2px;
   right: -5px;
